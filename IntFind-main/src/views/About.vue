@@ -17,7 +17,11 @@ const settings = [
     <!-- Header -->
     <header class="w-full bg-white p-4 shadow-md flex justify-between ">
       <h1 class="text-blue-600 font-bold text-2xl">Intfind</h1>
-      
+      <input
+        type="text"
+        placeholder="Search..."
+        class="border border-gray-300 rounded px-3 py-2 w-1/3"
+      />
       <!-- Dropdown Section -->
     <div>
         <select
